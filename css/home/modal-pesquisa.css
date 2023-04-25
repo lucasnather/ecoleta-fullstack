@@ -42,3 +42,9 @@
     background-color: #34CB79;
     color: #fff;
 }
+
+@media (max-width:1180px) {
+    .modal-pesquisa {
+        width: 100%;
+    }
+}
