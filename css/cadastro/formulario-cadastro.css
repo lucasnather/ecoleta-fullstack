@@ -110,6 +110,14 @@
     .formulario-cadastro {
         width: 100%;
     }
+
+    .campos-checkbox__itens-coleta {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .label__campos-checkbox__itens-coleta  {
+        padding: 15px;
+    }
 }
 
 
