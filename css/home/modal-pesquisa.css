@@ -1,0 +1,44 @@
+.modal-pesquisa {
+    border: none;
+    background-color: #0E0A14;
+    width: 30%;
+}
+
+.modal-pesquisa::backdrop {
+    background-color: #0E0A14;
+    opacity: 0.95;
+}
+
+.container-titulo__dialog {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.fechar-modal {
+    color: #fff;
+}
+
+.fechar-modal:hover {
+    cursor: pointer;
+}
+
+.titulo__pesquisa-pontos {
+    color: #fff;
+    font-weight: 700;
+    font-size: 36px;
+   
+}
+
+.input__pesquisa-pontos {
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 8px 0;
+}
+
+.botao__pesquisa-pontos {
+    background-color: #34CB79;
+    color: #fff;
+}

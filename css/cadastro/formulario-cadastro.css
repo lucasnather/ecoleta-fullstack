@@ -1,0 +1,115 @@
+.formulario-cadastro {
+    background-color: #fff;
+    width: 50%;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.titulo__formulario-cadastro {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.subtitulo__formulario-cadastro {
+    font-weight: 700;
+    font-size: 24px;
+    margin: 64px 0 44px 0;
+}
+
+.label__formulario-cadastro {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input__formulario-cadastro {
+    width: 100%;
+    padding: 9px;
+    border-radius: 8px;
+    background-color: #F0F0F5;
+    border: none;
+}
+
+.grupo-input {
+    margin: 40px 0;
+}
+
+.grupo-input-endereco, .grupo-input-cidade {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.containerinput-endereco__formulario-cadastro {
+    width: 100%;
+}
+
+.containerinput-cidade__formulario-cadastro {
+    width: 50%;
+}
+
+.container-titulo__itens-coleta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo__itens-coleta {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.paragrafo__itens-coleta {
+    font-size: 14px;
+}
+
+.campos-checkbox__itens-coleta {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 20px 0;
+}
+
+
+.label__campos-checkbox__itens-coleta {
+    background-color: #E1FAEC;
+    text-align: center;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.label__campos-checkbox__itens-coleta p {
+    margin-top: 10px;
+}
+
+.container-botao {
+    text-align: end;
+}
+
+.botao__formulario-cadastro {
+    background-color: #34CB79;
+    color: #fff;
+    padding: 9px;
+    border: none;
+    border-radius: 8px;
+}
+
+.botao__formulario-cadastro:hover {
+    background-color: #1a693e;
+    transition: .5s;
+}
+
+.input-check {
+    display: none;
+}
+
+.cor-fundo-check {
+    background: linear-gradient(0deg, #E1FAEC 0%, #FFFFFF 100%);
+}
+
+@media (max-width:1180px) {
+    .formulario-cadastro {
+        width: 100%;
+    }
+}
+
+

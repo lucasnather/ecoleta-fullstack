@@ -1,0 +1,62 @@
+.marketplace {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.conteudo__marketplace {
+    width: 50%;
+}
+
+.titulo__marketplace {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 54px;
+}
+
+.paragrafo__marketplace {
+    font-size: 24px;
+    margin: 24px 0 40px 0;
+    line-height: 30px;
+}
+
+.botao__marketplace {
+    display: flex;
+    align-items: center;
+    background-color: #34CB79;
+    font-weight: bold;
+    gap: 5px;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+}
+
+.botao__marketplace:hover  {
+    background-color: #209a57;
+}
+
+.paragrafo__botao__marketplace{
+    color: #fff;
+}
+
+@media (max-width: 1180px) {
+    .conteudo__marketplace {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .centraliza-botao{
+        display: flex;
+        justify-content: center;
+    }
+
+    .marketplace {
+        display: block;
+        text-align: center;
+    }
+
+    .img__home {
+        width: 50%;
+    }
+}

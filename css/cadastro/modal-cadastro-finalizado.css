@@ -1,0 +1,17 @@
+.modal-cadastro-finalizado {
+    height: 100vh;
+    background-color: #0E0A14;
+    opacity: 0.95;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.principal__modal-cadastro-finalizado {
+    text-align: center;
+}
+
+.paragrafo__modal-cadastro-finalizado {
+    color: #fff;
+    margin-top: 10px;
+}

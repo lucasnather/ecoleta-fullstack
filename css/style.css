@@ -1,0 +1,19 @@
+@import url(./reset.css);
+@import url(./header.css);
+@import url(./home/marketplace.css);
+@import url(./home/modal-pesquisa.css);
+@import url(./cadastro/formulario-cadastro.css);
+@import url(./cadastro/modal-cadastro-finalizado.css);
+@import url(./lista/lista.css);
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: #E5E5E5;
+}
+
+section {
+    max-width: 80%;
+    margin: 0 auto;
+}
