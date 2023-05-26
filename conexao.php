@@ -1,6 +1,12 @@
 <?php 
 
+require_once 'global.php';
 
-$conexao = mysqli_connect(getenv('HOST'), getenv('USERNAME'), getenv('PASSWORD'), getenv('DB_NAME'));
+$localhost= $_ENV['HOST'];
+$username= $_ENV['USERNAME'];
+$password= $_ENV['PASSWORD'];
+$dbname= $_ENV['DB_NAME'];
+
+$conexao = mysqli_connect($localhost, $username, $password, $dbname);
 
 ?>

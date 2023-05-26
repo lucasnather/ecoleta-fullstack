@@ -1,5 +1,5 @@
 <?php 
-    include_once('conexao.php');
+    require_once 'conexao.php';
 
     $cidade = $_POST["cidade-pesquisa"];
     $estado = $_POST["estado-pesquisa"];
