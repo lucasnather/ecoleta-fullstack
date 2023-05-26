@@ -8,6 +8,7 @@
         $cidade = $_POST["cidade"];
         $estado = $_POST["estado"];
         $coleta = $_POST["coleta"];
+        
         $itensColeta = implode(" , ", $coleta);
    
         $cidadeMinusculoEcapitalizado = ucwords(strtolower($cidade));
