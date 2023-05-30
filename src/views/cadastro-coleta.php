@@ -10,8 +10,8 @@
 <body>
     <header>
         <section class="cabecalho">
-            <a href="index.php"><img src="./img/home/logo-ecoleta.svg" alt="logo ecoleta"></a>
-            <a href="index.php" class="link__cabecalho"><img src="./img/home/login.svg" alt="login icone"> Voltar para home</a>
+            <a href="/"><img src="./img/home/logo-ecoleta.svg" alt="logo ecoleta"></a>
+            <a href="/" class="link__cabecalho"><img src="./img/home/login.svg" alt="login icone"> Voltar para home</a>
         </section>
     </header>
 
@@ -21,7 +21,7 @@
 
             <h3 class="subtitulo__formulario-cadastro">Dados da Entidade</h3>
             
-            <form action="cadastro-finalizado.php" method="post" id="formulario-cadastro">
+            <form method="post" id="formulario-cadastro">
                 <div class="grupo-input">
                     <label for="nome-entidade" class="label__formulario-cadastro">Nome da entidade</label>
 
